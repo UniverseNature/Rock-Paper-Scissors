@@ -1,9 +1,9 @@
-alert("Make sure your zoom level is 100%, or else the page will not display as intended");
+alert("Make sure your zoom level is 100%, or else the page will not display as intended.");
 
 function round(){
     var randomizer = Math.floor(Math.random() * 3) + 1 ;
     var scriptWeapon;
-    var userWeapon = prompt("Choose your weapon..");
+    var userWeapon = prompt("Choose your weapon.");
 
     if(randomizer == 1){
             scriptWeapon = "rock";
