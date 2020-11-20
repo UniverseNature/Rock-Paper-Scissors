@@ -12,6 +12,25 @@
 #play-button{height:50px;
     position:relative;
     top:150px;
-    left:50px;}
+    left:350px;}
 
-#result{text-align: center;}
+#result{text-align: center;
+    position:relative;
+    bottom:30px;}
+
+#scriptScore{float:left;
+    margin-left:30px;
+    text-align:center;}
+
+#userScore{float:right;
+    margin-right:50px;
+    text-align:center;}
+
+#reset-button{display:none;
+    height:50px;
+    position:relative;
+    top:200px;
+    left:580px;
+    width:100px;
+    height:50px;
+    margin-top:-25px;}
