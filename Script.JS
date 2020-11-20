@@ -1,4 +1,4 @@
-//alert("Make sure your zoom level is 100%, or else the page will not display as intended."); // Something I do in every project, its a habit.
+alert("Make sure your zoom level is 100%, or else the page will not display as intended."); // Something I do in every project, its a habit.
 
  // Initialize the variables in global scope so that both round() and reset() can use them.
 
