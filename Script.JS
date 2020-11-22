@@ -10,7 +10,7 @@ function round(){
 
     /* Announce the randomizer and userWeapon here so that :-
     1. The script changes its weapon.
-    2. It doesnt ask for the weapon on startup.*/
+    2. It doesnt ask for the user's weapon on startup.*/
 
     var randomizer = Math.floor(Math.random() * 3) + 1 ;
     var userWeapon = prompt("Choose your weapon.");
@@ -90,5 +90,5 @@ function reset(){
         document.getElementById("reset-button").style.display = "none";
         document.getElementById("userScore").innerHTML = "Player's Score " + "<br>";
         document.getElementById("scriptScore").innerHTML = "Script's Score " + "<br>";
-        document.getElementById("play-button").style.display = "block";
+        document.getElementById("play-button").style.display = "inline";
 }
